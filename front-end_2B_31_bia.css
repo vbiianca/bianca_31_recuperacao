@@ -1,0 +1,56 @@
+/* Importar uma fonte do Google Fonts */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #d4f4d6, #ffffff);
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.3; /* Define a opacidade da imagem para 30% */
+}
+
+.image-container::before {
+    content: 'Nossa Imagem'; /* Adiciona um texto sobre a imagem */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.map-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-container {
+    text-align: center;
+}
+
+iframe {
+    border: 0;
+}
